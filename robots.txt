@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jdreimanis.github.io/thermapet/sitemap.xml
