@@ -1,6 +1,6 @@
 # ThermaPet
 
-Static HSC/SACE business plan website for **ThermaPet**, by Anastazja Dreimanis.
+Static HSC/SACE business plan website for **ThermaPet**.
 
 SACE Number: 689308F
 
