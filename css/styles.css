@@ -400,6 +400,11 @@ tr.total td {
   background: #fff;
 }
 
+.org-frame figcaption {
+  max-width: 34rem;
+  margin: 0.6rem auto 0;
+}
+
 .org-frame img {
   width: 100%;
   max-height: 100vh;
