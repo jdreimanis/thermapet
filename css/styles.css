@@ -138,6 +138,7 @@ img { max-width: 100%; }
   height: 100%;
   object-fit: cover;
   object-position: center;
+  background: var(--cover-bg);
 }
 
 /* Positions measured from the cover design (1381 x 777) */
