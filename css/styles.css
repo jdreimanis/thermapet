@@ -161,6 +161,16 @@ img { max-width: 100%; }
   line-height: 1;
   letter-spacing: -0.01em;
   white-space: nowrap;
+  z-index: 2; /* never painted under a cover photo */
+}
+
+.pitch-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 650 / 480;
+  background: #000;
+  border-radius: 6px;
 }
 
 .sace {
