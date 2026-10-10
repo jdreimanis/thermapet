@@ -15,7 +15,7 @@ https://jdreimanis.github.io/thermapet/
 - `index.html` — single-page business plan
 - `css/styles.css` — layout and the sage, mint, and tan palette
 - `js/site.js` — section navigation
-- `images/` — product photographs and the organisational chart
+- `images/` — cover photographs, statistics and location figures, and the organisational chart (WebP)
 - `robots.txt` and `sitemap.xml`
 
 The page sections follow the business plan headings. Body text is the accepted plan wording.
