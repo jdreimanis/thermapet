@@ -203,6 +203,19 @@ img { max-width: 100%; }
   text-align: justify;
 }
 
+.ai-note {
+  position: absolute;
+  left: 32%;
+  top: 89.5%;
+  width: 36%;
+  margin: 0;
+  font-family: var(--serif-bold);
+  font-weight: 700;
+  font-size: max(0.68rem, 1.05cqw);
+  line-height: 1.3;
+  text-align: center;
+}
+
 /* ---------- Plan body ---------- */
 
 .page {
@@ -538,9 +551,10 @@ footer {
       "title title"
       "sace sace"
       "value value"
+      "ainote ainote"
       "cat shepherd"
       "frenchie frenchie";
-    grid-template-rows: 9.5rem auto auto auto 10.5rem 13rem;
+    grid-template-rows: 9.5rem auto auto auto auto 10.5rem 13rem;
     gap: 0.55rem;
     padding: 0.75rem;
   }
@@ -559,6 +573,7 @@ footer {
 
   .title { grid-area: title; font-size: 3.3rem; margin-top: 0.4rem; }
   .sace { grid-area: sace; justify-self: center; width: min(100%, 20rem); padding: 0.8rem 1rem; font-size: 1.25rem; }
+  .ai-note { grid-area: ainote; justify-self: center; max-width: 22rem; font-size: 0.8rem; margin-bottom: 0.4rem; }
   .value { grid-area: value; justify-self: center; max-width: 22rem; font-size: 1.05rem; margin-bottom: 0.4rem; }
 }
 
